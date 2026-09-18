@@ -1,0 +1,94 @@
+{
+  "dataset": "Supplied PHYS10362 coursework CSVs; experimental provenance unverified",
+  "model": "Constant-width, E-squared-numerator shape; free pole cross section",
+  "residual_cut_sigma": 5,
+  "before_residual_cut": {
+    "parameters": {
+      "mass_GeV": 91.17270948225243,
+      "width_GeV": 2.5871609740395902,
+      "pole_cross_section_nb": 1.911884440886757
+    },
+    "standard_errors": {
+      "mass_GeV": 0.015575017705578132,
+      "width_GeV": 0.045755534221612715,
+      "pole_cross_section_nb": 0.02304762033051962
+    },
+    "covariance": [
+      [
+        0.0002425811765290723,
+        1.8713600896519173e-05,
+        1.1113494883697802e-07
+      ],
+      [
+        1.8713600896519173e-05,
+        0.002093568911905172,
+        -0.0007463691274945994
+      ],
+      [
+        1.111349488369794e-07,
+        -0.0007463691274945995,
+        0.0005311928028997813
+      ]
+    ],
+    "chi_squared": 309.40315637005165,
+    "degrees_of_freedom": 92,
+    "reduced_chi_squared": 3.363077786630996,
+    "lifetime_s": 2.5441476721225244e-25,
+    "lifetime_standard_error_s": 4.499481750255295e-27,
+    "observations": 95
+  },
+  "final": {
+    "parameters": {
+      "mass_GeV": 91.17679184770311,
+      "width_GeV": 2.471802295757019,
+      "pole_cross_section_nb": 1.9856423261515577
+    },
+    "standard_errors": {
+      "mass_GeV": 0.014666342577458446,
+      "width_GeV": 0.044642096568344884,
+      "pole_cross_section_nb": 0.02548995349970521
+    },
+    "covariance": [
+      [
+        0.00021510160459937047,
+        1.2185117650186396e-05,
+        2.8614490215096285e-06
+      ],
+      [
+        1.2185117650186396e-05,
+        0.00199291678601743,
+        -0.0008355982087293062
+      ],
+      [
+        2.861449021509627e-06,
+        -0.0008355982087293061,
+        0.0006497377294171338
+      ]
+    ],
+    "chi_squared": 86.3761399556779,
+    "degrees_of_freedom": 90,
+    "reduced_chi_squared": 0.9597348883964211,
+    "lifetime_s": 2.662882699319289e-25,
+    "lifetime_standard_error_s": 4.809311279354532e-27,
+    "observations": 93
+  },
+  "input_rows": 103,
+  "input_window_and_validity_exclusions": 8,
+  "residual_cut_exclusions": 2,
+  "inputs": [
+    {
+      "name": "z_boson_data_1.csv",
+      "sha256": "07ca9e27e07302d93cce39b16ba777d06db87a2b27f015c758d152b49763faf2"
+    },
+    {
+      "name": "z_boson_data_2.csv",
+      "sha256": "7dcf66d5b26cae37ccfaadbd0d6e9952bb96c957f80b018d2363406adc66be43"
+    }
+  ],
+  "versions": {
+    "python": "3.12.14",
+    "numpy": "2.5.3",
+    "scipy": "1.18.1",
+    "matplotlib": "3.11.2"
+  }
+}
